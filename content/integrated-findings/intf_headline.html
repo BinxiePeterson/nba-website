@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Headline indicators – National Biodiversity Assessment</title>
+<title>Headline indicators</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,10 +37,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-873486f3db474cc0cfb34b8517f191db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,11 +106,8 @@ background: #adb5bd;
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://www.sanbi.org/" class="navbar-brand navbar-brand-logo">
-    <img src="../../imgs/sanbi-logo-medium.png" alt="" class="navbar-logo light-content">
-    <img src="../../imgs/sanbi-logo-medium.png" alt="" class="navbar-logo dark-content">
-    </a>
-    <a class="navbar-brand" href="https://www.sanbi.org/">
-    <span class="navbar-title">National Biodiversity Assessment</span>
+    <img src="../../imgs/nba-logo-combo.png" alt="" class="navbar-logo light-content">
+    <img src="../../imgs/nba-logo-combo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -117,11 +117,11 @@ background: #adb5bd;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contents.html"> 
+    <a class="nav-link active" href="../../contents.html" aria-current="page"> 
 <span class="menu-text">Contents</span></a>
   </li>  
 </ul>
@@ -170,10 +170,6 @@ background: #adb5bd;
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -257,6 +253,12 @@ background: #adb5bd;
  <span class="menu-text">Species threat status and protection level</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/integrated-findings/intf-species-rli.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Species trends - Red List Index</span></a>
+  </div>
+</li>
       </ul>
   </li>
           <li class="sidebar-item">
@@ -270,7 +272,7 @@ background: #adb5bd;
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Findings by realm</span></a>
+ <span class="menu-text">Realm findings</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -292,8 +294,11 @@ background: #adb5bd;
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">content/terrestrial/ter_pressures-conditions.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../../content/terrestrial/ter_pressures-condition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pressures on biodiversity</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/terrestrial/ter_ets.html" class="sidebar-item-text sidebar-link">
@@ -332,13 +337,13 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/freshwater/fw_wet_type.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Freshwater (inland aquatic) realm</span></a>
+ <span class="menu-text">Wetland Ecosystem Types</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/freshwater/fw_riv_type.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Freshwater (inland aquatic) realm</span></a>
+ <span class="menu-text">River Ecosystem Type</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -356,13 +361,13 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/freshwater/fw_riv_condition.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Freshwater (inland aquatic) realm</span></a>
+ <span class="menu-text">River Ecological Condition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/freshwater/fw_wet_ets.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Wetland Ecosystem Threat Status</span></a>
+ <span class="menu-text">Wetland ecosystem threat status</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -374,7 +379,7 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/freshwater/fw_wet_epl.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Wetland Ecosystem Protection Level</span></a>
+ <span class="menu-text">Wetland ecosystem protection level</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -403,13 +408,13 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/estuaries/est_ecosystem.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ecosystem Types</span></a>
+ <span class="menu-text">Ecosystem types</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/estuaries/est_habitat.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Add the title of your page here</span></a>
+ <span class="menu-text">Habitat</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -421,25 +426,25 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/estuaries/est_condition.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">est_condition.html</span></a>
+ <span class="menu-text">Ecological condition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/estuaries/est_ets.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ecosystem Threat Status</span></a>
+ <span class="menu-text">Ecosystem threat status</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/estuaries/est_epl.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ecosystem Protection Level</span></a>
+ <span class="menu-text">Ecosystem protection level</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/estuaries/est_ets_epl.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Integration of Ecosystem Threat Status and Protection Level</span></a>
+ <span class="menu-text">Intesection of ecosystem threat status and protection level</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -474,7 +479,7 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/marine/marine_condition.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ecological Condition</span></a>
+ <span class="menu-text">Ecological condition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -486,7 +491,7 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/marine/marine_epl.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ecosystem Protection Level</span></a>
+ <span class="menu-text">Ecosystem protection level</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -498,13 +503,19 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/species/marine_sp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Marine Species</span></a>
+ <span class="menu-text">The State of South Africa’s Marine Species</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/species/marine_bird_sp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Marine birds</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/marine/marine_priority_actions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Priority Actions and Recommendations</span></a>
+ <span class="menu-text">Knowledge gaps, priority actions and priority areas</span></a>
   </div>
 </li>
       </ul>
@@ -565,7 +576,7 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/subantarctic/sub-all_sections.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sub-Antarctic</span></a>
+ <span class="menu-text">Subantarctic</span></a>
   </div>
 </li>
       </ul>
@@ -573,7 +584,7 @@ background: #adb5bd;
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/species/sp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Species</span></a>
+ <span class="menu-text">Species findings</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -648,7 +659,7 @@ background: #adb5bd;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/species/sp_sharks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sharks (incl. Batoids &amp; Chimaeras)</span></a>
+ <span class="menu-text">Sharks (incl. Rays &amp; Chimaeras)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -680,12 +691,18 @@ background: #adb5bd;
  <span class="menu-text">Wildlife forensics in South Africa</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/genetics/chl_barcoding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DNA barcoding in South Africa</span></a>
+  </div>
+</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
- <span class="menu-text">Priority actions, responses and interventions</span></a>
+ <span class="menu-text">Priority actions and knowledge gaps</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -723,17 +740,51 @@ background: #adb5bd;
 
 
 <p>The NBA has four headline indicators, providing information on the threat status and protection level of ecosystems and species.</p>
-<p>The threat status indicators use established IUCN Red List of Ecosystems and Red List of Threatened Species assessment frameworks. The risk of collapse (ecosystems) or extinction (species) is evaluated across all realms and for taxonomic groups for which sufficient data exist. The protection level indicators reflect how well species and ecosystem types are represented in the protected area network.</p>
-<div class="quarto-figure quarto-figure-center">
+<p>The threat status indicators use established <a href="https://iucnrle.org/">IUCN Red List of Ecosystems</a> and <a href="https://www.iucnredlist.org/">Red List of Threatened Species</a> assessment frameworks. The risk of collapse (ecosystems) or extinction (species) is evaluated across all realms and for taxonomic groups for which sufficient data exist. The protection level indicators (developed as part of the NBA) reflect how well species and ecosystem types are represented in the protected area network.</p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Ecosystem threat status:</strong> Almost half of the 986 ecosystem types assessed in the NBA 2025 are threatened. Estuaries, wetlands, rivers and the coast have the highest proportion of threatened ecosystem types. <a href="../../content/integrated-findings/intf_ecosystems.html#ets">View findings</a>. <em>Click to enlarge image →</em></p>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-right">
 <figure class="figure">
-<p><img src="imgs/Fig 3 mockup.jpg" class="img-fluid figure-img" alt="Headline Indicators figure"></p>
-<figcaption>Figure 1. The NBA’s four national headline indicators are threat status and protection level for ecosystems and species. Symbols in Species Threat Status graph: *sample of 900 plant taxa, **sample of sandy beach invertebrate species, ***sample of economically important marine invertebrate species</figcaption>
+<p><a href="imgs/fig3brle.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="imgs/fig3brle.png" class="img-fluid quarto-figure quarto-figure-right figure-img" width="200"></a></p>
 </figure>
 </div>
-<p><strong>Ecosystem Threat Status:</strong> Almost half of the 986 ecosystem types assessed in the NBA 2025 are threatened. Estuaries, wetlands, rivers and the coast have the highest proportion of threatened ecosystem types.</p>
-<p><strong>Ecosystem Protection Level:</strong> Over three-quarters of ecosystem types are represented in the current protected area network, leaving 24% in the Not Protected category. River, wetland and estuary types have the lowest levels of protection.</p>
-<p><strong>Species Threat Status:</strong> Of&nbsp;20&nbsp;248 plant species assessed, 16% are threatened. Of 5&nbsp;227 animal species assessed, 10% are threatened. The most threatened taxonomic groups are freshwater fishes and cartilaginous fishes (sharks, rays and chimaeras).</p>
-<p><strong>Species Protection Level:</strong> Almost 80% of plant species are Well Protected (based on a random sample of 900 taxa). All mammal, reptile, bird, amphibian, freshwater fish and butterfly species were assessed and overall 74% are Well Protected.</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Ecosystem protection level:</strong> Over three-quarters of ecosystem types are represented in the current protected area network, leaving 24% in the Not Protected category. River, wetland and estuary types have the lowest levels of protection. <a href="../../content/integrated-findings/intf_ecosystems.html#epl">View findings</a>. <em>Click to enlarge image →</em></p>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="imgs/fig3depl.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="imgs/fig3depl.png" class="img-fluid quarto-figure quarto-figure-right figure-img" width="200"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Species threat status:</strong> Of 20 248 plant species assessed, 16% are threatened. Of 5&nbsp;226 animal species assessed, 10% are threatened. The most threatened taxonomic groups are freshwater fishes and cartilaginous fishes (sharks, rays and chimaeras). <a href="../../content/integrated-findings/intf-species.html#sts">View findings</a>. <em>Click to enlarge image →</em></p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="imgs/fig3arls.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="imgs/fig3arls.png" class="img-fluid quarto-figure quarto-figure-right figure-img" width="300"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Species protection level:</strong> Almost 70% of plant species are Well Protected (based on a random sample of 900 taxa). All mammal, reptile, bird, amphibian and freshwater fish species were assessed and overall 77% are Well Protected. <a href="../../content/integrated-findings/intf-species.html#spl">View findings</a>. <em>Click to enlarge image →</em></p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="imgs/fig3cspl.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="imgs/fig3cspl.png" class="img-fluid quarto-figure quarto-figure-right figure-img" width="300"></a></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 
@@ -1161,7 +1212,7 @@ The National Biodiversity Assessment (NBA) is a collaborative effort to synthesi
 <h4 style="margin-bottom: 0.3em; font-size: 1rem; font-weight: 400;">
 Important links
 </h4>
-<p><a href="../../content/context/acknowledgementsnba2025.html">Acknowledgements</a><br> <a href="../../content/context/cite-nba.html">How to cite</a><br> <a href="../../content/context/whatsnew-nba.html">What’s new</a><br> <a href="../../content/context/glossary.html">Terminology and glossary</a><br> <a href="../../content/context/disclaimerterms.html">Disclaimer</a></p>
+<p><a href="../../content/context/acknowledgementsnba2025.html">Acknowledgements</a><br> <a href="../../content/context/cite-nba.html">How to cite</a><br> <a href="../../content/context/whatsnew-nba.html">What’s new</a><br> <a href="../../content/context/glossary.html">Terminology</a><br> <a href="../../content/context/disclaimerterms.html">Disclaimer</a></p>
 </div>
 </div>
     <div class="nav-footer-right">
@@ -1200,6 +1251,38 @@ Important links
       });
   });
 </script>   
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
